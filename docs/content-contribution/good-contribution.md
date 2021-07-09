@@ -26,6 +26,9 @@ After making your changes and saving them, check through the content of the comm
 
 Limit your content contribution to a single SAP documentation page.
 
+> ### Note
+> Sometimes, a documentation page is also referred to as *topic*.
+
 A change or addition across a number of different pages for a given topic is going to be more complex to describe and also implement, and is not an example of an ideal and simple contribution.
 
 That's not to say that pull requests such as this will be ignored; sometimes content changes across multiple pages are required. But for those cases, it may be better to communicate that requirement via feedback, that is by raising an issue. Learn more about the types of contribution in [Contributing to SAP Documentation](../contributing.md).
