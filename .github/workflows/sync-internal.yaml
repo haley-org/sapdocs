@@ -53,7 +53,8 @@ jobs:
         id: checkout_target_branch
         run: |
           git checkout ${{ env.TARGET_REPO_BRANCH }}
-
+        working-directory: ./${{ env.TARGET_REPO_NAME }}
+        
       - name: Add git configuration
         if: ${{ success() }}
         id: config_git
