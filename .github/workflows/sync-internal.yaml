@@ -49,6 +49,11 @@ jobs:
         run: |
           git clone https://x-access-token:${{ env.TARGET_REPO_TOKEN }}@${{ env.TARGET_REPO_HOST }}/${{ env.TARGET_OWNER_REPO }}.git
 
+      - name: Checkout target branch
+        id: checkout_target_branch
+        run: |
+          git checkout ${{ env.TARGET_REPO_BRANCH }}
+
       - name: Add git configuration
         if: ${{ success() }}
         id: config_git
