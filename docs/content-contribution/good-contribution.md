@@ -24,10 +24,10 @@ After making your changes and saving them, check through the content of the comm
 
 ## Limited to a Single Page
 
-Limit your content contribution to a single SAP documentation page.
-
 > ### Note
 > Sometimes, a documentation page is also referred to as *topic*.
+
+Limit your content contribution to a single SAP documentation page.
 
 A change or addition across a number of different pages for a given topic is going to be more complex to describe and also implement, and is not an example of an ideal and simple contribution.
 
