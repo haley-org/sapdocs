@@ -3,7 +3,7 @@ name: Sync back to internal
 # What the execution context is:
 # The push (merge) of content into the trunk, when on github.com.
 
-# What it does:
+# What it does:  
 # Syncs changes back to a repo, which is paired with this one and
 # sits on an internally hosted GitHub Enterprise server.
 
