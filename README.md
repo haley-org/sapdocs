@@ -1,4 +1,4 @@
-Test without any workflows in `workflows`
+Test without any gitattributes in `workflows`
 
 
   
